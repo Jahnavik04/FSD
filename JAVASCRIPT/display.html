@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+let name='rekha';
+document.write(name+" ");
+name='ramya';
+document.write(name+" , ");
+name='geetha';
+document.write(name+"<br>");
+</script>
+<script >
+	var v=10.23;
+	document.write(typeof(v)+"<br>");
+    var b;
+    b +='hai';
+    document.write(b+"<br>");
+    var arr=['hai', 45
+    	,143,true,'aditya'];
+    document.write(arr+"<br>");
+    document.write(typeof(arr)+"<br>");
+    document.write(arr[1]+"<br>");
+    document.write(arr[3]+"<br>");
+    var details= {
+    	'name':'Ram',
+    	'rollno':87,
+    	'branch':'cse',
+    	'sec':'a'
+    }
+    console.log(details.name+" ");
+    console.log(details.branch+" ");
+
+    var potti=[ {
+    	'name':'Vandy',
+    	'rollno':70,
+    	'branch':'ece',
+    	'sec':'b',
+        'email':'vandy@gmail.com'
+    },
+     potti= {
+    	'name':'Teja',
+    	'rollno':80,
+    	'branch':'eee',
+    	'sec':'c',
+        'email':'teja@gmail.com'
+    },
+    potti= {
+        'name':'bujji',
+        'rollno':90,
+        'branch':'ece',
+        'sec':'a',
+        'email':'bujji@gmail.com'
+    }]
+    console.log(potti);
+    //console.log(potti[0].name);
+    //console.log(potti[1].name);
+    //console.log(potti[0].rollno);
+   for( var i=0; i< potti.length; i++)
+   {
+   	console.log(i,potti[i].name , potti[i].rollno, potti[i].branch , potti[i].sec+"<br>");
+   }
+   for (var i=0;i<potti.length;i++){
+      for (var key in potti[i]){
+        document.write(potti[i][key])
+      }
+      document.write("<br>");
+    }
+//for (key in potti[i]) {
+//document.write(potti[i][key]+" ")
+//}
+</script>
+
+
+
+</body>
+</html>

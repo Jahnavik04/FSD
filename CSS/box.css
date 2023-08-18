@@ -1,0 +1,47 @@
+*
+{
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+}
+.a
+{
+	height:500px;
+	width:500px;
+	background-color:blue;
+	border:2px solid black;
+	margin:10px 30px 30px 40px;
+	padding-top:40px;
+	padding-left: 40px;
+	font-size:15px;
+}
+.b
+{
+	height:400px;
+	width:400px;
+	background-color:yellow;
+	border:2px solid black;
+	padding-top:40px;
+	padding-left: 40px;
+	font-size:15px;
+}
+.c
+{
+	height:300px;
+	width:300px;
+	background-color:pink;
+	border:2px solid black;
+	padding-top:40px;
+	padding-left: 40px;
+	font-size:15px;
+	
+}
+.d
+{
+	height:200px;
+	width:200px;
+	background-color:violet;
+	border:2px solid black;
+	font-size:15px;
+
+}

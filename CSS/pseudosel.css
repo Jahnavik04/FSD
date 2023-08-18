@@ -1,0 +1,38 @@
+
+a:hover
+{
+	color:red;font-size:100px;
+}
+a:active
+{
+	color:blue;
+}
+a:link
+{
+	color:brown;
+}
+div
+{   
+	height:100px;
+	background-color: blue;
+	width:100px;
+}
+
+div:hover
+{
+	height:200px;
+	width:200px;
+	background-color:yellow;
+}
+div:active
+{
+	height:100px;
+	width:100px;
+	background-color:hotpink;
+	}
+div:active
+   {
+	height:200px;
+	width:200px;
+	background-color:darkseagreen;
+	}

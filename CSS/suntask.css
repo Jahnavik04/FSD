@@ -1,0 +1,12 @@
+input[type="text"]
+{
+    color:red;
+    border-style:dotted;
+}
+a[href]
+{
+    color:black;
+    background-color:mintcream;
+    border-style:solid;
+}
+

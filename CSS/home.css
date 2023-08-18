@@ -1,0 +1,82 @@
+div
+{
+	background-color:hotpink;
+	width:1500px;
+	height:1000px;
+	border:2px solid black;
+}
+.head
+{
+	height:120px;
+	width:1500px;
+	background-color:hotpink;
+	border:2px solid black;
+}
+.a{
+	height:90px;
+	width:150px;
+	background-color:skyblue;
+	border:2px solid black;
+	border-radius:20%;
+	float:left;
+    color:white;
+    text-align: center;
+    padding-top:15px;
+	margin:10px 20px 30px 100px;
+
+}
+.b{
+	height:700px;
+	width:300px;
+	background-color:white;
+	margin:40px;
+	float: left;
+
+}
+.c{
+	height:300px;
+	width:700px;
+	background-color:white;
+	float: right;
+	margin:80px;
+
+}
+.cir
+{
+	height:150px;
+	width:200px;
+	border-radius: 50%;
+	background-color:yellow;
+	margin:20px;
+	background-image: url('boy4.png') ;
+}
+.i{
+align-items: left;
+}
+h1{
+	color:Black;
+}
+.box{
+	height:30px;
+	width:70px;
+	background-color:yellow;
+	float:left;
+	border:2px solid black;
+	margin:25px;
+}
+.blue{
+	height:8px;
+	width:500px;
+	background-color:blue;
+}
+.red{
+	height:8px;
+	width:450px;
+	background-color:red;
+}
+.green{
+	height:8px;
+	width:550px;
+	background-color:green;
+}
+

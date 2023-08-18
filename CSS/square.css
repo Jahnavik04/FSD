@@ -1,0 +1,14 @@
+.border {
+  border: 10px dotted black;
+  width: 50%;
+  border-radius: 10px; 
+  max-width: 400px;
+  margin:150px;
+}
+
+.container {
+  padding: 10px 10px;
+  background-color: pink;
+  font-size:20px;
+  height:70px;
+}
